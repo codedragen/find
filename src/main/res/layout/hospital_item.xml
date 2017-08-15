@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <com.cl.find.CustomImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="12dp"
+        app:circle="true"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/add"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/hospital_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            tools:text="北京医院"
+            />
+        <TextView
+            android:id="@+id/hospital_item_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/darker_gray"
+            tools:text="地址:海淀区西三旗"
+            android:textSize="16sp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:id="@+id/hospital_item_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="16sp"
+
+            tools:text="急救电话:7343445急救电话:7343445急救电话:7343445急救电话:7343445急救电话:7343445"
+            android:paddingLeft="5dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
